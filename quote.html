@@ -22,9 +22,10 @@
     		$(".text-danger").hide().fadeIn(400);
     		$("div").hide().delay(400).slideDown(500);
     		$("button").on("click", function(){
+    			$("p").fadeTo(300, 0).fadeTo(300, 1);
     			setTimeout(
     				function() {
-    					$("p").fadeTo(300, 0).fadeTo(300, 1);
+    					//tvoj kod
     				},
     				1000);
     		});
