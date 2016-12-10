@@ -10,12 +10,16 @@ div {
 	background: white;
 	margin: 50px 100px 0px 100px;
 	border-radius: 30px;
+<<<<<<< HEAD
 	padding: 50px 50px 20px 50px;
+=======
+	padding-bottom: 20px;
+>>>>>>> 19751f7e7fe5d6eeccc4097f8a3b5583593f8060
 }
 
 h1 {
 	text-align: center;
-	font-size: 40px;
+	font-size: 70px;
 	margin-top: 70px;
 	color: white;
 }
@@ -29,6 +33,7 @@ p {
 
 button {
 	display:block; /* change this from inline-block */
+<<<<<<< HEAD
     width:20%; /* setting the width */
     /* this will center  it */
 
@@ -37,4 +42,20 @@ button {
     color: white;
     background: black;
 
+=======
+    width:10%; /* setting the width */
+    position:relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #191919;
+    background: white;
+    color: black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+button:hover {
+	background: black;
+	color: white;
+	border: 2px solid #191919;
+>>>>>>> 19751f7e7fe5d6eeccc4097f8a3b5583593f8060
 }
