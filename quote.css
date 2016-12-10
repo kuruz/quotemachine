@@ -1,10 +1,11 @@
-
-
 body {
 	background-color: grey; 
-	font-family: Arial;
+	font-family: phont;
 }
-
+@font-face {
+	font-family: phont;
+	src: url(sjajanfont.ttf);
+}
 div {
 	background: white;
 	margin: 50px 100px 0px 100px;
